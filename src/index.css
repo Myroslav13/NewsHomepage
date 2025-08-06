@@ -66,3 +66,66 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.div-new-news {
+  background-color: #00001a;
+}
+
+.div-new-news p {
+  color: lightgray;
+  font-size: 0.9em;
+}
+
+.div-new-news h2:hover {
+  color: #e7a954;
+  cursor: pointer;
+}
+
+p {
+  color: gray;
+}
+
+.div-other-news p {
+  font-size: 0.9em;
+}
+
+h2.fs-3, .div-other-news h3:hover {
+  color: #f15d51;
+}
+
+.div-other-news h3:hover {
+  cursor: pointer;
+}
+
+button {
+  background-color: #f15d51;
+  border-radius: 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.9em;
+  padding: 8px 28px;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  border: 1px black;
+}
+
+a:hover {
+  color: #e7a954 !important;
+}
+
+.div-other-news img{
+  max-width: 140px;
+  max-height: 140px;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:hover {
+  background-color: white;
+}
